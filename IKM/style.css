@@ -1,0 +1,136 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: fit-content;
+    background: rgb(68, 161, 73);
+}
+
+.header img {
+    width: 100%;
+
+}
+
+.wrapper {
+    background: rgb(111, 192, 111);
+    margin-top: -1em;
+    height: fit-content;
+    padding: 2em;
+}
+.buttonBox {
+    max-width: 900px;
+    height: fit-content;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+}
+
+.buttonBox button {
+    background: rgb(111, 192, 111);
+    color: white;
+    width: 150px;
+    padding: 7px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
+    cursor: pointer;
+}
+
+.buttonBox button:hover {
+    opacity: 0.8;
+}
+
+.bodyContent {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+p {
+    margin: 1em;
+}
+
+footer {
+    background-color: #525252;
+    width: 100%;
+    height: fit-content;
+    padding: 2px;
+    color: rgb(199, 189, 189);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    cursor: pointer;
+}
+
+.error {
+    width: 95%;
+    height: fit-content;
+    background-color: rgba(71, 19, 19, 0.959);
+    margin: 0 auto;
+    padding: 2.5em;
+    color: rgb(212, 192, 192);
+    text-align: center;
+    display: none;
+}
+
+h4 {
+    color: rgb(235, 235, 127);
+}
+
+.img {
+    background-image: url("background/image.png");
+    width: 260px;
+    height: 240px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+@media (max-width:600px){
+    p {
+        font-size: .65em;
+    }
+
+    .buttonBox {
+        padding: left 0.5em;
+    }
+
+    .buttonBox button {
+        padding: 4px;
+    }
+
+    .error {
+        width: 100%;
+    }
+}
+
+@media (max-width:470px){
+    .hide{
+        display: none;
+    }
+
+    .img {
+        width: 167px;
+        height: 150px;
+        background-size: 10.5em;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+}
