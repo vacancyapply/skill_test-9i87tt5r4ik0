@@ -1,6 +1,5 @@
 //alert("Hi there, Please note that our side is currently under maintainance, some functions are disabled, Thank you. Click ok to continue");
 
-
 let slideIndex = 0;
 showSlides();
 
@@ -154,74 +153,74 @@ noBtn.addEventListener("click", ()=>{
 inputBox.addEventListener("keyup", ()=>{
   let userData = inputBox.value;
    switch (userData) {
-      case"471314":
+      case"641352":
       test.style.display = "flex";
-      display.innerText = "Feziwe Gwinta";
+      display.innerText = "Jonker Shandre";
       break;
 
-      case"335034":
+      case"731432":
       test.style.display = "flex";
-      display.innerText = "Siyanda Madlebe";
+      display.innerText = "Mohau Hope";
       break;
 
-      case"616481":
+      case"623115":
       test.style.display = "flex";
-      display.innerText = "Fawwaaz Waggie";
+      display.innerText = "Lwazi Zinto";
       break;
 
-      case"734171":
+      case"176473":
       test.style.display = "flex";
-      display.innerText = "Shannon Coetzee";
+      display.innerText = "Samantha Jacobs";
       break;
 
-      case"042171":
+      case"849161":
       test.style.display = "flex";
-      display.innerText = "Kara Keana";
+      display.innerText = "Samuels Nogammed";
       break;
 
-      case"738814":
+      case"223125":
       test.style.display = "flex";
-      display.innerText = "Nur Patel";
+      display.innerText = "Mpho Motlhabi";
       break;
 
-      case"013431":
+      case"263451":
       test.style.display = "flex";
-      display.innerText = "Lesego Mpye";
+      display.innerText = "Busiswa Sibhozo";
       break;
 
-      case"764153":
+      case"554170":
       test.style.display = "flex";
-      display.innerText = "Yolanda Gcinisiko";
+      display.innerText = "Shihaum Willoughby";
       break;
 
-      case"889421":
+      case"479718":
       test.style.display = "flex";
-      display.innerText = "Klaasen Thimna";
+      display.innerText = "Chelsea Marchart";
       break;
 
-      case"012667":
+      case"795273":
       test.style.display = "flex";
-      display.innerText = "Lethu Koza";
+      display.innerText = "Apiwe Nyanga";
       break;
 
-      case"341312":
+      case"630641":
       test.style.display = "flex";
-      display.innerText = "Luvuyo Resha";
+      display.innerText = "Tashriq Samsodien";
       break;
 
-      case"275115":
+      case"884460":
       test.style.display = "flex";
-      display.innerText = "Bongani Phiri";
+      display.innerText = "Tammy-lee Brangt";
       break;
 
-      case"641932":
+      case"159163":
       test.style.display = "flex";
-      display.innerText = "Justin West";
+      display.innerText = "Samboer Eugene";
       break;
 
-      case"312461":
+      case"632041":
       test.style.display = "flex";
-      display.innerText = "Ya-eesh Abrahams";
+      display.innerText = "Kessia Cruz";
       break;
 
 
